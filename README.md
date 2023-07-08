@@ -2,6 +2,8 @@
 
 A TypeScript package for counting the number of tokens in a given text using the GPT-3 language model.
 
+It's not perfect but it's a pretty close estimate.
+
 ## Installation
 
 You can install the `gpt-3-token-count` package via npm:
