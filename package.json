@@ -1,6 +1,6 @@
 {
   "name": "gpt-3-token-count",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript token counter for GPT-3",
   "main": "index.js",
   "types": "./index.d.ts",
