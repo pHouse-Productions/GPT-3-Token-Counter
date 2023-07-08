@@ -61,7 +61,7 @@ function count(text) {
     while (index < token.length) {
       for (let i = token.length - index; i > 0; i--) {
         const subToken = token.slice(index, index + i).join("");
-        if (encoder[subToken]) {
+        if (encoder[subToken] !== undefined) {
           index += i;
           count++;
           break;
